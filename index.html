@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini IMDb Clone</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script
+    src="https://kit.fontawesome.com/74894dafb2.js"
+    crossorigin="anonymous"
+  ></script>
+ 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="main">
+       
+      
+       <nav class="nav-menu">
+
+           <!-- nav 1st child  -->
+       
+            <div class="logo-menu">
+              <div class="imdb-logo" id="i-logo">
+                   <img src="./images/IMDB.png" alt="imdb-logo">
+              </div>
+              
+            </div>
+               <!-- nav second child  -->
+            <div class="search-box">
+              <input type="text" name="searchMovie" id="searchMovie" placeholder="Search IMDb"
+              autocomplete="off">
+              <div id="search-icon"> <i class="fa-solid fa-magnifying-glass"></i></div>
+            </div>
+            <!-- nav 3rd child  -->
+            <div class="fabs-login">
+              
+              <h3 class="hover"><a href="./favourites.html"><i class="fa-solid fa-folder-plus"></i> Favourites</a></h3>
+              
+            </div>
+       </nav>
+      
+
+
+     <!-- container for displaying the movies from the OMDB api-->
+     <div id="movies">
+
+     
+
+    </div>
+
+
+       
+    <script src="./javascript/script.js"></script>
+</body>
+</html>
