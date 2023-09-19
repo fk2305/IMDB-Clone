@@ -1,14 +1,10 @@
 // we access Element by DOM Api and stores element in variable 
 var container = document.getElementById('movies');
 var search = document.getElementById('searchMovie');
-const apiKey = '470efe52';
+const apiKey = '470efe52'
 
 
-
-
-
-
-
+// Function to fetch movies from the OMDB api
 
 const fetchMovies = async (searchTerm) => {
     const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&s=${searchTerm}`);

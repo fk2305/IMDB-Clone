@@ -7,7 +7,7 @@ var favMovieArray = JSON.parse(storageData);
 // console.log(favMovieArray);
 
 
-
+// Function to fetch movies from the OMDB api according to a our search
 
 const fetchMovies = async (searchTerm) => {
     const response = await fetch(`https://www.omdbapi.com/?apikey=${apiKey}&i=${searchTerm}`);
